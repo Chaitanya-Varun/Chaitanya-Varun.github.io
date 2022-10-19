@@ -26,9 +26,12 @@ I have held multiple positions of responsibilities during my college tenure, som
 2. Sponsorship Co-ordinator for Elan & nVision, annual fest of IITH.
 
 
-In my free time, I binge movies and TV shows, listen to music or play badminton. 
+In my free time, I binge movies and TV shows, listen to music or play badminton. Though these are few activities I generally do, I most probably end up sleeping in my leisure!
 
 
+I am keen follower of start-up culture and an active participant in many such related events. If you are having any idea which you think could be a useful product, how come we did not meet yet? 
+
+I am looking for collaboration on impactful open-source projects or research problems in the areas of signal processing application in cognitive sciences. Do connect on my socials for any such oppurtunities.
 
 
 <!-- 
