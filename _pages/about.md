@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Chaitanya Varun"
+excerpt: "Student Researcher from IITH EE"
 author_profile: true
 redirect_from: 
   - /about/

@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chaitanya Varun"
+title                    : "Student Researcher from IITH"
 title_separator          : "-"
 name                     : &name "Sahukari Chaitanya Varun"
-description              : &description "personal description"
+description              : &description "Student Researcher from IITH"
 url                      : https://chaitanya-varun.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chaitanya-Varun/Chaitanya-Varun.github.io"
