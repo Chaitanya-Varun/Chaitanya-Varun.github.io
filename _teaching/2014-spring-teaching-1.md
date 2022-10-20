@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching  Assistant for ID2230 (DSA)"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Undergraduate/Postgraduate course"
+# permalink: /teaching/2014-spring-teaching-1
+venue: "IIT Hyderabad"
+date: Aug-Dec,2023
+location: "Kandi, India"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+The course was jointly conducted by Prof. Rameshwar Pratap and Prof.Maunendra Desarkar, Department of CSE, IITH.
+I handled the responsibilities of teaching assistant tutoring the students and in completing evaluation procedures. The course covered the basic data structures including lists, stacks, Trees AVL trees, hashmaps etc. It also encompassed the study of generic algorithms and complexity analysis for the same.
