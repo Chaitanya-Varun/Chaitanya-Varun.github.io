@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 <!-- ![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title") -->
-[(Download PDF)](https://Chaitanya-Varun.github.io/files/paper1.pdf){:target="_blank"}
+[(Download PDF)](https://Chaitanya-Varun.github.io/files/Present_CV.pdf){:target="_blank"}
 
 Education
 ======
