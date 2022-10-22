@@ -5,7 +5,7 @@ collection: publications
 excerpt: 'This paper talks about synthetic speech attribution method for identifying the spoof samples with reasoning the network from a signal processing perspective.'
 date: 27-10-2022
 venue: 'Proceedings to IEEE Trans. on Information forensics and Security'
-paperurl: 'http://chaitanya-varun.github.io/files/Paper_SPCup.pdf'
+paperurl: 'http://chaitanya-varun.github.io/files/Paper_SPCUP2022.pdf'
 
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.
