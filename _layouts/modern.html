@@ -1,0 +1,56 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="modern-site{% if page.body_class %} {{ page.body_class }}{% endif %}">
+    {% include browser-upgrade.html %}
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-shell site-header__inner">
+        <a class="site-name" href="{{ '/' | relative_url }}" aria-label="Chaitanya Varun, home">Chaitanya Varun</a>
+
+        <nav class="site-nav site-nav--desktop" aria-label="Primary navigation">
+          {% for link in site.data.navigation.main %}
+            <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+          {% endfor %}
+        </nav>
+
+        <details class="site-nav site-nav--mobile">
+          <summary><span>Menu</span><i class="fas fa-bars" aria-hidden="true"></i></summary>
+          <nav aria-label="Mobile navigation">
+            {% for link in site.data.navigation.main %}
+              <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+            {% endfor %}
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-shell site-footer__inner">
+        <p>Chaitanya Varun <span aria-hidden="true">·</span> Boulder, Colorado</p>
+        <div class="site-footer__links" aria-label="Professional links">
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

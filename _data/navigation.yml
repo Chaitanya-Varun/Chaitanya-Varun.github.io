@@ -1,25 +1,14 @@
-# main links links
+# Main navigation
 main:
-  - title: "Publications"
-    url: /publications/
-  
-  - title: "Research and Projects"
-    url: /projects/ 
-
-  - title: "Conferences and Presentations"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
+  - title: "Research"
+    url: /research/
+  - title: "Work"
+    url: /work/
+  - title: "News"
+    url: /news/
+  - title: "Writing"
+    url: /writing/
+  - title: "Clicks & Picks"
+    url: /clicks-and-picks/
   - title: "CV"
     url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
