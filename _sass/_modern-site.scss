@@ -6,8 +6,8 @@
   --line: #d8cdb9;
   --accent: #ce6a00;
   --accent-soft: #f4d7ad;
-  --display: Georgia, "Times New Roman", serif;
-  --body: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+  --display: "Source Serif 4", Charter, "Iowan Old Style", Georgia, serif;
+  --body: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 html {
@@ -109,7 +109,7 @@ body.modern-site {
   position: relative;
   color: var(--ink);
   font-size: 0.93rem;
-  font-weight: 650;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -154,13 +154,20 @@ body.modern-site {
   padding: 45px clamp(0px, 1vw, 16px);
 }
 
-.eyebrow,
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.055em;
+}
+
 .section-kicker p {
   margin: 0;
   color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 750;
-  letter-spacing: 0.09em;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
   text-transform: uppercase;
 }
 
@@ -227,7 +234,7 @@ body.modern-site {
   gap: 9px;
   padding: 0 20px;
   border-left: 1px solid #9d9b8f;
-  font-weight: 650;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -273,7 +280,7 @@ body.modern-site {
   flex: 0 0 auto;
   color: var(--ink-soft);
   font-size: 0.75rem;
-  font-weight: 650;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -296,7 +303,7 @@ body.modern-site {
   margin: 0;
   font-family: var(--body);
   font-size: 1rem;
-  font-weight: 750;
+  font-weight: 700;
   line-height: 1.3;
 }
 
@@ -329,51 +336,43 @@ body.modern-site {
 
 .org-mark {
   width: 58px;
-  height: 45px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #fff;
-  border: 1px solid var(--line);
+  background: transparent;
+  border: 0;
 }
 
 .org-mark img {
-  width: 100%;
-  height: 100%;
+  width: 46px;
+  height: 46px;
   display: block;
   object-fit: contain;
 }
 
 .org-mark--iith img {
-  width: 152px;
-  max-width: none;
-  height: 45px;
-  padding: 2px;
-  object-position: left center;
+  width: 44px;
+  height: 44px;
 }
 
-.org-mark--iith,
+.org-mark--iith {
+  justify-content: center;
+}
+
 .org-mark--cloudglance {
   justify-content: flex-start;
 }
 
-.org-mark--oracle {
-  color: #a8281d;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.68rem;
-  font-weight: 750;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+.org-mark--oracle img {
+  width: 43px;
+  height: 43px;
 }
 
-.org-mark--cu {
-  background: #cfb87c;
-  border-color: #b8a163;
-  color: #111;
-  font-family: var(--display);
-  font-size: 1.05rem;
-  font-weight: 700;
+.org-mark--cu img {
+  width: 45px;
+  height: 45px;
 }
 
 .community-list {
@@ -446,7 +445,7 @@ body.modern-site {
 .news-list time {
   color: var(--accent);
   font-size: 0.75rem;
-  font-weight: 750;
+  font-weight: 700;
 }
 
 .news-list p {
@@ -566,7 +565,7 @@ body.modern-site {
   align-items: center;
   color: #f8f0df;
   font-size: 0.82rem;
-  font-weight: 650;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -613,7 +612,7 @@ body.modern-site {
   color: var(--accent);
   font-family: var(--body);
   font-size: 0.83rem;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -682,7 +681,7 @@ body.modern-site {
 .work-entry__period {
   color: var(--accent);
   font-size: 0.78rem;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -778,6 +777,10 @@ body.modern-site {
     gap: 22px;
   }
 
+  .hero h1 {
+    font-size: clamp(2.45rem, 4.8vw, 3.25rem);
+  }
+
   .hero {
     grid-template-columns: minmax(0, 1fr) minmax(360px, 0.8fr);
     gap: 40px;
@@ -844,7 +847,7 @@ body.modern-site {
   .site-nav--mobile nav a {
     padding: 10px 12px;
     color: var(--ink);
-    font-weight: 650;
+    font-weight: 600;
     text-decoration: none;
   }
 
