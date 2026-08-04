@@ -1,0 +1,23 @@
+_includes/head/custom.html
+  s_9b650c39ac020e::t_f80f84db1f747b 5-8
+_layouts/home.html
+  s_9b650c39ac020e::t_4511dc129e014b 66,70,74
+_sass/_modern-site.scss
+  s_9b650c39ac020e::t_18e6c2f9c89e39 9-10,112,157-164,168-170,237,283,306,339,344-345,349-350,356-361,368-370,373-375,448,568,615,684,780-783,850
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "ae6f9d6e452d96668b3b747855fff933653bc4ca",
+  "prompts": {},
+  "sessions": {
+    "s_9b650c39ac020e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fcae5-777f-7f23-97af-462deb00f5c2",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "ChaitanyaVarun-oci <sahukari.varun@oracle.com>"
+    }
+  }
+}
