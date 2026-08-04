@@ -1,0 +1,67 @@
+_config.yml
+  s_9b650c39ac020e::t_718c6b4e739a62 10,12-13,17,21,66,70-74,79,86-90,102,108
+_data/navigation.yml
+  s_9b650c39ac020e::t_0c5879db757edf 1,3-12
+_data/news.yml
+  s_9b650c39ac020e::t_2ee573e64551df 1-11
+_includes/seo.html
+  s_9b650c39ac020e::t_f672365fffd9ca 9-11,92-93
+_layouts/home.html
+  s_9b650c39ac020e::t_462bab5399ab94 1-138
+_layouts/modern-page.html
+  s_9b650c39ac020e::t_34f496cda3e018 1-14
+_layouts/modern.html
+  s_9b650c39ac020e::t_716202ce1604f5 1-56
+_pages/about.md
+  s_9b650c39ac020e::t_cfdc987c74794d 2,5-6
+_pages/clicks-and-picks.md
+  s_9b650c39ac020e::t_7445bdb2bc0b3a 1-25
+_pages/cv.md
+  s_9b650c39ac020e::t_965af84e18f30b 2,4-5,11-15,17,19-23
+_pages/news.md
+  s_9b650c39ac020e::t_5f3a8192da43e9 1-16
+_pages/publications.md
+  s_9b650c39ac020e::t_3b585c4ea23e5d 2-5,9-17
+_pages/research.md
+  s_9b650c39ac020e::t_18fe4473ceb35c 1-56
+_pages/work.md
+  s_9b650c39ac020e::t_dc9caf46199c0d 1-61
+_pages/writing.md
+  s_9b650c39ac020e::t_70b731dbd69e44 1-12
+_portfolio/portfolio-1.md
+  s_9b650c39ac020e::t_14107f5793f62e 3
+_portfolio/portfolio-2.html
+  s_9b650c39ac020e::t_52b2b5dc9c1b43 3
+_posts/2012-08-14-blog-post-1.md
+  s_9b650c39ac020e::t_71ae02551d94d0 3,21
+_posts/2013-08-14-blog-post-2.md
+  s_9b650c39ac020e::t_bdea9ebe580d6a 3,21
+_posts/2014-08-14-blog-post-3.md
+  s_9b650c39ac020e::t_a361af5b84818c 3,21
+_posts/2015-08-14-blog-post-4.md
+  s_9b650c39ac020e::t_9d64e24c0c8a48 3,21
+_posts/2199-01-01-future-post.md
+  s_9b650c39ac020e::t_f8dc5bcb8b7fa4 3
+_sass/_modern-site.scss
+  s_9b650c39ac020e::t_b42316dbdfde60 1-1010
+assets/css/main.scss
+  s_9b650c39ac020e::t_11d7bf6be80270 39,42-43
+images/brands/cloudglance.svg
+  s_9b650c39ac020e::t_c0a2aba202d60f 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "edc07277217ec77fbaad4e764758bdbd220e5e25",
+  "prompts": {},
+  "sessions": {
+    "s_9b650c39ac020e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fcae5-777f-7f23-97af-462deb00f5c2",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "ChaitanyaVarun-oci <sahukari.varun@oracle.com>"
+    }
+  }
+}
