@@ -6,7 +6,7 @@ body_class: home-page
 <section class="hero site-shell" aria-labelledby="hero-title">
   <div class="hero__copy">
     <p class="eyebrow">PhD student <span aria-hidden="true">·</span> CU Boulder</p>
-    <h1 id="hero-title">Building perceptually faithful video—and reliable systems to support it.</h1>
+    <h1 id="hero-title">Building perceptually faithful video and reliable systems to support it.</h1>
     <p class="hero__lede">I am a PhD student at the <a href="https://www.colorado.edu/">University of Colorado Boulder</a>, advised by Prof. <a href="https://www.colorado.edu/ecee/al-bovik">Alan C. Bovik</a> in the <a href="https://www.colorado.edu/lab/live/">Laboratory for Image and Video Engineering (LIVE Lab)</a>.</p>
     <p class="hero__support">My doctoral work is supported by LIVE Lab through a collaboration with the YouTube/Google Media Algorithms team led by Dr. Balu Adsumilli.</p>
 
@@ -23,7 +23,76 @@ body_class: home-page
   </figure>
 </section>
 
-<section class="home-overview site-shell" aria-label="Research, experience, and updates">
+<section class="home-record site-shell" aria-label="Education and work experience">
+  <section class="record-section" aria-labelledby="education-title">
+    <div class="section-kicker">
+      <p id="education-title">Education</p>
+    </div>
+
+    <div class="record-list record-list--education">
+      <article class="record-item">
+        <div class="org-mark org-mark--cu"><img src="{{ '/images/brands/cu-boulder.png' | relative_url }}" alt="" aria-hidden="true"></div>
+        <div>
+          <p class="record-item__meta">PhD · Electrical and Computer Engineering</p>
+          <h2>University of Colorado Boulder</h2>
+          <p>PhD student in LIVE Lab, advised by Prof. Alan C. Bovik.</p>
+        </div>
+      </article>
+      <article class="record-item">
+        <div class="org-mark org-mark--iith"><img src="{{ '/images/brands/iit-hyderabad-symbol.png' | relative_url }}" alt="" aria-hidden="true"></div>
+        <div>
+          <p class="record-item__meta">B.Tech. (Hons.) · 2019 to 2023</p>
+          <h2>IIT Hyderabad</h2>
+          <p>Electrical Engineering, with research across image processing, speech and ASR, and multimodal AI.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="record-section" aria-labelledby="experience-title">
+    <div class="section-kicker">
+      <p id="experience-title">Work</p>
+      <a href="{{ '/work/' | relative_url }}">View full experience <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="record-list record-list--experience">
+      <article class="record-item">
+        <div class="org-mark org-mark--oracle"><img src="{{ '/images/brands/oracle-o.png' | relative_url }}" alt="" aria-hidden="true"></div>
+        <div>
+          <p class="record-item__meta">Software Developer 2</p>
+          <h2>Oracle</h2>
+          <p>Distributed cloud control-plane, reliability, and fleet-management systems.</p>
+        </div>
+      </article>
+      <article class="record-item">
+        <div class="org-mark org-mark--gpai"><img src="{{ '/images/brands/gpai-compact.png' | relative_url }}" alt="" aria-hidden="true"></div>
+        <div>
+          <p class="record-item__meta">Student Associate · 2022 to 2023</p>
+          <h2>GPAI</h2>
+          <p>Built a collaboration platform for global AI research communities.</p>
+        </div>
+      </article>
+      <article class="record-item">
+        <div class="org-mark org-mark--wisig"><img src="{{ '/images/brands/wisig-networks.png' | relative_url }}" alt="" aria-hidden="true"></div>
+        <div>
+          <p class="record-item__meta">Project Intern · 2021</p>
+          <h2>WiSig Networks</h2>
+          <p>5G NR physical-layer modules and hardware IP for system-on-chip design.</p>
+        </div>
+      </article>
+      <article class="record-item">
+        <div class="org-mark org-mark--drdo"><img src="{{ '/images/brands/drdo.png' | relative_url }}" alt="" aria-hidden="true"></div>
+        <div>
+          <p class="record-item__meta">Winter Intern · 2021 to 2022</p>
+          <h2>DRDO</h2>
+          <p>Machine-learning methods for radar signal processing and PRI estimation.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+</section>
+
+<section class="home-overview site-shell" aria-label="Research and updates">
   <div class="home-column research-column">
     <div class="section-kicker">
       <p>Current questions</p>
@@ -53,39 +122,6 @@ body_class: home-page
         <p>Scalable data, training, evaluation, and serving systems for next-generation video models.</p>
       </div>
     </article>
-  </div>
-
-  <div class="home-column path-column">
-    <div class="section-kicker">
-      <p>Path so far</p>
-      <a href="{{ '/work/' | relative_url }}">View work <span aria-hidden="true">↗</span></a>
-    </div>
-
-    <ol class="path-list">
-      <li>
-        <div class="org-mark org-mark--iith"><img src="{{ '/images/brands/iit-hyderabad-symbol.png' | relative_url }}" alt="" aria-hidden="true"></div>
-        <div><h2>IIT Hyderabad <span>· 2023</span></h2><p>B.Tech. (Hons.) in Electrical Engineering. Student researcher across image processing, speech and ASR, and multimodal AI.</p></div>
-      </li>
-      <li>
-        <div class="org-mark org-mark--oracle"><img src="{{ '/images/brands/oracle-o.png' | relative_url }}" alt="" aria-hidden="true"></div>
-        <div><h2>Oracle</h2><p>Software Developer 2, building reliable distributed cloud control-plane and fleet-management systems.</p></div>
-      </li>
-      <li>
-        <div class="org-mark org-mark--cu"><img src="{{ '/images/brands/cu-boulder.png' | relative_url }}" alt="" aria-hidden="true"></div>
-        <div><h2>University of Colorado Boulder</h2><p>PhD student advised by Prof. Alan C. Bovik in LIVE Lab.</p></div>
-      </li>
-    </ol>
-
-    <div class="community-list">
-      <a href="https://www.cloudglancelab.com/">
-        <span class="org-mark org-mark--cloudglance"><img src="{{ '/images/brands/cloudglance-symbol.png' | relative_url }}" alt="CloudGlance"></span>
-        <span><strong>CloudGlance</strong><small>Founding engineer, early stage</small></span>
-      </a>
-      <a href="https://bitshala.org/">
-        <span class="org-mark org-mark--bitshala"><img src="{{ '/images/brands/bitshala.png' | relative_url }}" alt="Bitshala"></span>
-        <span><strong>Bitshala</strong><small>Volunteer</small></span>
-      </a>
-    </div>
   </div>
 
   <div class="home-column notes-column">
