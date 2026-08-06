@@ -298,8 +298,7 @@ body.modern-site {
 }
 
 .question-item h2,
-.path-list h2,
-.milestone-grid h2 {
+.path-list h2 {
   margin: 0;
   font-family: var(--body);
   font-size: 1rem;
@@ -500,40 +499,6 @@ body.modern-site {
 
 @keyframes picks-loop {
   to { transform: translateX(-50%); }
-}
-
-.milestones {
-  padding-top: 28px;
-  padding-bottom: 62px;
-}
-
-.milestone-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-}
-
-.milestone-grid article {
-  min-height: 175px;
-  padding: 22px;
-  background: #f3eddf;
-  border-top: 3px solid var(--ink);
-}
-
-.milestone-grid span {
-  color: var(--accent);
-  font-family: var(--display);
-  font-size: 1.25rem;
-}
-
-.milestone-grid h2 {
-  margin-top: 25px;
-}
-
-.milestone-grid p {
-  margin: 8px 0 0;
-  color: var(--ink-soft);
-  font-size: 0.9rem;
 }
 
 .site-footer {
@@ -877,7 +842,6 @@ body.modern-site {
   }
 
   .notes-column,
-  .milestone-grid,
   .theme-grid,
   .work-grid,
   .achievement-grid,
@@ -925,7 +889,6 @@ body.modern-site {
 
   .home-overview,
   .notes-column,
-  .milestone-grid,
   .theme-grid,
   .work-grid,
   .achievement-grid,
@@ -949,10 +912,6 @@ body.modern-site {
 
   .community-list {
     grid-template-columns: 1fr;
-  }
-
-  .milestone-grid article {
-    min-height: 145px;
   }
 
   .site-footer__inner {
