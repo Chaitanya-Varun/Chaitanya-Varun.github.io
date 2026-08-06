@@ -598,7 +598,6 @@ body.modern-site {
 }
 
 .theme-grid,
-.work-grid,
 .achievement-grid,
 .empty-shelf {
   display: grid;
@@ -607,7 +606,6 @@ body.modern-site {
 }
 
 .theme-card,
-.work-card,
 .achievement-card,
 .empty-shelf article {
   min-height: 190px;
@@ -624,7 +622,6 @@ body.modern-site {
 }
 
 .theme-card p,
-.work-card p,
 .achievement-card p,
 .empty-shelf p {
   margin: 8px 0 0;
@@ -632,7 +629,6 @@ body.modern-site {
 }
 
 .research-piece,
-.news-page-list li,
 .work-entry {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
@@ -642,7 +638,6 @@ body.modern-site {
 }
 
 .research-piece__label,
-.news-page-list time,
 .work-entry__period {
   color: var(--accent);
   font-size: 0.78rem;
@@ -652,7 +647,6 @@ body.modern-site {
 }
 
 .research-piece h3,
-.news-page-list h2,
 .work-entry h2 {
   margin: 0 0 7px;
   color: var(--ink);
@@ -663,15 +657,8 @@ body.modern-site {
 }
 
 .research-piece p,
-.news-page-list p,
 .work-entry p {
   margin: 0;
-}
-
-.news-page-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .work-entry__logo {
@@ -843,7 +830,6 @@ body.modern-site {
 
   .notes-column,
   .theme-grid,
-  .work-grid,
   .achievement-grid,
   .empty-shelf {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -890,7 +876,6 @@ body.modern-site {
   .home-overview,
   .notes-column,
   .theme-grid,
-  .work-grid,
   .achievement-grid,
   .empty-shelf {
     grid-template-columns: minmax(0, 1fr);
@@ -928,7 +913,6 @@ body.modern-site {
   }
 
   .research-piece,
-  .news-page-list li,
   .work-entry {
     grid-template-columns: 1fr;
     gap: 10px;

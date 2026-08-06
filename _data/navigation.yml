@@ -4,11 +4,7 @@ main:
     url: /research/
   - title: "Work"
     url: /work/
-  - title: "News"
-    url: /news/
   - title: "Writing"
     url: /writing/
   - title: "Clicks & Picks"
     url: /clicks-and-picks/
-  - title: "CV"
-    url: /cv/

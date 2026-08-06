@@ -92,7 +92,6 @@ body_class: home-page
     <section id="news" class="compact-section" aria-labelledby="news-title">
       <div class="section-kicker">
         <p id="news-title">News</p>
-        <a href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">↗</span></a>
       </div>
       <ol class="news-list news-list--compact">
         {% for item in site.data.news limit:3 %}
