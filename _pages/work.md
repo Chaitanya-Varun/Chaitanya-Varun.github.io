@@ -144,10 +144,50 @@ permalink: /work/
   </div>
 </section>
 
+<section class="work-section" aria-labelledby="teaching-work-title">
+  <header class="work-section__heading work-section__heading--split">
+    <div>
+      <p class="eyebrow">Teaching &amp; mentorship</p>
+      <h2 id="teaching-work-title">Making technical ideas easier to work with.</h2>
+    </div>
+    <p>Alongside research and engineering, I have supported classroom learning and peer-led technical communities at IIT Hyderabad.</p>
+  </header>
+
+  <div class="teaching-grid">
+    <article class="teaching-card">
+      <div class="teaching-card__identity">
+        <span class="teaching-card__mark">
+          <img src="{{ '/images/brands/iit-hyderabad-symbol.png' | relative_url }}" alt="IIT Hyderabad">
+        </span>
+        <div>
+          <p class="experience-card__period">IIT Hyderabad</p>
+          <p class="teaching-card__role">Teaching Assistant</p>
+        </div>
+      </div>
+      <h3>Data Structures and Applications (ID2230)</h3>
+      <p>Supported the course taught by Prof. Rameshwar Pratap and Prof. Maunendra Desarkar. Tutored students and helped conduct evaluations across lists, stacks, trees, AVL trees, hash maps, generic algorithms, and complexity analysis.</p>
+      <div class="experience-meta"><span>Student tutoring</span><span>Evaluation</span><span>Algorithms</span><span>Complexity analysis</span></div>
+    </article>
+
+    <article class="teaching-card">
+      <div class="teaching-card__identity">
+        <span class="teaching-card__mark teaching-card__mark--icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>
+        <div>
+          <p class="experience-card__period">IIT Hyderabad · 2019 to 2021</p>
+          <p class="teaching-card__role">Mentor and core member</p>
+        </div>
+      </div>
+      <h3>Elektronica SciTech Club</h3>
+      <p>Supported peer learning in electronics and helped students turn technical ideas into hands-on club projects. I contributed first as a core member and later as a mentor.</p>
+      <div class="experience-meta"><span>Peer mentorship</span><span>Electronics</span><span>Student projects</span><span>Technical community</span></div>
+    </article>
+  </div>
+</section>
+
 <section class="work-section" aria-labelledby="community-work-title">
   <header class="work-section__heading">
     <p class="eyebrow">Building with communities</p>
-    <h2 id="community-work-title">Early-stage engineering, teaching, and service.</h2>
+    <h2 id="community-work-title">Early-stage engineering and service.</h2>
   </header>
 
   <div class="community-work-grid">
@@ -164,12 +204,6 @@ permalink: /work/
       <p class="experience-card__period">Volunteer</p>
       <p>Contribute to a community supporting Bitcoin FOSS developer education and open technical learning.</p>
       <a href="https://bitshala.org/">Visit Bitshala <span aria-hidden="true">↗</span></a>
-    </article>
-    <article>
-      <img src="{{ '/images/brands/iit-hyderabad-symbol.png' | relative_url }}" alt="IIT Hyderabad">
-      <h3>IIT Hyderabad</h3>
-      <p class="experience-card__period">Teaching Assistant · 2022</p>
-      <p>Tutored and evaluated students in Data Structures and Applications (ID2230).</p>
     </article>
     <article class="community-work-grid__text-card">
       <i class="fas fa-hands-helping" aria-hidden="true"></i>

@@ -370,6 +370,7 @@
 
 .experience-card h3,
 .foundation-experience h3,
+.teaching-card h3,
 .project-feature h3,
 .community-work-grid h3 {
   margin: 0 0 12px;
@@ -450,9 +451,71 @@
   line-height: 1.62;
 }
 
+.teaching-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.teaching-card {
+  min-width: 0;
+  min-height: 360px;
+  padding: clamp(26px, 4vw, 42px);
+  background: #fffdf7;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--ink);
+}
+
+.teaching-card__identity {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.teaching-card__mark {
+  width: 66px;
+  height: 66px;
+  flex: 0 0 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper-deep);
+}
+
+.teaching-card__mark img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  object-fit: contain;
+}
+
+.teaching-card__mark--icon {
+  color: var(--accent);
+  font-size: 1.6rem;
+}
+
+.teaching-card__identity .experience-card__period {
+  margin: 0 0 5px !important;
+}
+
+.teaching-card__role {
+  margin: 0 !important;
+  color: var(--ink-soft) !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.teaching-card > p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.62;
+}
+
 .community-work-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -632,6 +695,7 @@
   .experience-index,
   .experience-card-grid,
   .foundation-experience-grid,
+  .teaching-grid,
   .community-work-grid,
   .impact-grid {
     grid-template-columns: 1fr;
