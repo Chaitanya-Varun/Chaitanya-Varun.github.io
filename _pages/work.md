@@ -199,19 +199,6 @@ permalink: /work/
   </article>
 </section>
 
-<section class="work-section" id="milestones" aria-labelledby="recognition-title">
-  <header class="work-section__heading">
-    <p class="eyebrow">Recognition</p>
-    <h2 id="recognition-title">Selected outcomes along the way.</h2>
-  </header>
-  <div class="recognition-grid">
-    <article><span>2023</span><h3>ICASSP challenges</h3><p>Winner of the LIMMITS Grand Challenge and first runner-up in the Five Minute Clip Contest.</p></article>
-    <article><span>2023</span><h3>Google Research Week</h3><p>Selected as a student researcher.</p></article>
-    <article><span>2022</span><h3>IEEE Signal Processing Cup</h3><p>First runner-up worldwide; the project poster also received a Purdue Graduate Showcase award.</p></article>
-    <article><span>2022</span><h3>Academic excellence</h3><p>Received IIT Hyderabad’s Academic Excellence Award and graduated with Honors in Electrical Engineering.</p></article>
-  </div>
-</section>
-
 <section class="work-section" aria-labelledby="ip-title">
   <div class="placeholder-note">
     <h2 id="ip-title">Patent disclosure in progress</h2>

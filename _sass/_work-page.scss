@@ -371,8 +371,7 @@
 .experience-card h3,
 .foundation-experience h3,
 .project-feature h3,
-.community-work-grid h3,
-.recognition-grid h3 {
+.community-work-grid h3 {
   margin: 0 0 12px;
   color: var(--ink);
   font-family: var(--display);
@@ -539,39 +538,6 @@
   color: #dce8e2;
 }
 
-.recognition-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.recognition-grid article {
-  min-width: 0;
-  min-height: 235px;
-  padding: 24px;
-  background: #fffdf7;
-  border: 1px solid var(--line);
-  border-top: 3px solid var(--ink);
-}
-
-.recognition-grid span {
-  display: block;
-  margin-bottom: 42px;
-  color: var(--accent);
-  font-family: var(--display);
-  font-size: 1.25rem;
-}
-
-.recognition-grid h3 {
-  font-size: 1.22rem;
-}
-
-.recognition-grid p {
-  margin: 0;
-  font-size: 0.82rem;
-  line-height: 1.5;
-}
-
 .work-page .placeholder-note h2 {
   margin: 0 0 7px;
   padding: 0;
@@ -598,8 +564,7 @@
     border-bottom: 1px solid var(--line);
   }
 
-  .community-work-grid,
-  .recognition-grid {
+  .community-work-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -671,8 +636,7 @@
     gap: 16px;
   }
 
-  .community-work-grid,
-  .recognition-grid {
+  .community-work-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -682,7 +646,6 @@
   .experience-card-grid,
   .foundation-experience-grid,
   .community-work-grid,
-  .recognition-grid,
   .impact-grid {
     grid-template-columns: 1fr;
   }
@@ -751,4 +714,3 @@
     min-height: 84px;
   }
 }
-
