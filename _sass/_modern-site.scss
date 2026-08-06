@@ -462,12 +462,6 @@ body.modern-site {
   font-size: 1.2rem;
 }
 
-.picks-preview > p {
-  margin: 12px 0 0;
-  color: var(--ink-soft);
-  font-size: 0.87rem;
-}
-
 .picks-ticker {
   overflow: hidden;
   padding: 11px 0;
@@ -835,9 +829,6 @@ body.modern-site {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .notes-column .picks-preview {
-    grid-column: 1 / -1;
-  }
 }
 
 @media (max-width: 700px) {
@@ -885,10 +876,6 @@ body.modern-site {
     grid-column: auto;
     padding-top: 0;
     border-top: 0;
-  }
-
-  .notes-column .picks-preview {
-    grid-column: auto;
   }
 
   .compact-section + .compact-section {
