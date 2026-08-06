@@ -1,0 +1,21 @@
+_sass/_work-page.scss
+  s_9b650c39ac020e::t_32aa95f7ac229e 373,454-515,518,698
+_pages/work.md
+  s_9b650c39ac020e::t_32aa95f7ac229e 147-186,190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "69bdd7b87303e41c8158794ed411365723d2ca3c",
+  "prompts": {},
+  "sessions": {
+    "s_9b650c39ac020e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fcae5-777f-7f23-97af-462deb00f5c2",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "ChaitanyaVarun-oci <sahukari.varun@oracle.com>"
+    }
+  }
+}
