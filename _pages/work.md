@@ -198,10 +198,3 @@ permalink: /work/
     </div>
   </article>
 </section>
-
-<section class="work-section" aria-labelledby="ip-title">
-  <div class="placeholder-note">
-    <h2 id="ip-title">Patent disclosure in progress</h2>
-    <p>Details will be added after the filing status is ready to share publicly.</p>
-  </div>
-</section>

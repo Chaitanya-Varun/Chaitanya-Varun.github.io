@@ -538,19 +538,6 @@
   color: #dce8e2;
 }
 
-.work-page .placeholder-note h2 {
-  margin: 0 0 7px;
-  padding: 0;
-  border: 0;
-  color: var(--ink);
-  font-family: var(--body);
-  font-size: 1.08rem;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-
-
 @media (max-width: 1160px) {
   .experience-index {
     grid-template-columns: repeat(2, minmax(0, 1fr));
